@@ -1,0 +1,74 @@
+main {
+  padding: 2rem;
+  letter-spacing: 2px;
+}
+
+article {
+  max-width: 1950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgb(214, 214, 214);
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+section p {
+  width: 900px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#glow {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 175px;
+  height: 100px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.4) 40%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+button {
+  background-color: black;
+  color: rgb(144, 142, 142);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: rgb(144, 142, 142) solid;
+  border-width: 1px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button div {
+  background-color: rgb(144, 142, 142);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+button img {
+  width: 15px;
+}
