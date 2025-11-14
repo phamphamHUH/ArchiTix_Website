@@ -73,3 +73,57 @@ section p {
   width: 500px;
 }
 
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 1rem;
+    letter-spacing: 1px;
+  }
+
+  article {
+    gap: 30px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  section p {
+    width: 90%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #glow {
+    top: 100px;
+    width: 120px;
+    height: 70px;
+    filter: blur(20px);
+  }
+
+  #missionVision {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .mvWrappers p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .vertical {
+    display: none;
+  }
+
+  .intro img {
+    width: 150px;
+    height: auto;
+  }
+
+  footer img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+  }
+}

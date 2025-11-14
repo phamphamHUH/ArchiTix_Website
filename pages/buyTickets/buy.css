@@ -172,3 +172,98 @@ button img {
 .event .sample {
   width: 400px;
 }
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 1rem;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    gap: 20px;
+  }
+
+  #glow {
+    top: 100px;
+    width: 120px;
+    height: 70px;
+    filter: blur(20px);
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .filter-wrapper,
+  .search-wrapper {
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+  input {
+    width: 70%;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+
+  select {
+    width: 60%;
+    font-size: 0.9rem;
+  }
+
+  .filters img,
+  .search-wrapper img {
+    width: 20px;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .events .showing,
+  .events .upcoming {
+    width: 100%;
+  }
+
+  .event {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .event .sample {
+    width: 90%;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+
+  button img {
+    width: 12px;
+  }
+}

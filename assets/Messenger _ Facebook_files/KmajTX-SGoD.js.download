@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("ZenonDGWTransportChannelStatus",["EventEmitter","ZenonDGWStreamController"],(function(t,n,r,o,a,i,l){"use strict";var e=(function(e){function t(){var t;return t=e.call(this)||this,t.$ZenonDGWTransportChannelStatus$p_1=r("ZenonDGWStreamController").getControllerInstance(),t.$ZenonDGWTransportChannelStatus$p_1.addListener("connectionStateEvent",function(e){t.emit("connectionStateEvent",e)}),t}babelHelpers.inheritsLoose(t,e);var n=t.prototype;return n.getConnectionState=function(){return this.$ZenonDGWTransportChannelStatus$p_1.getConnectionState()},n.getTransportName=function(){return"dgw"},t})(r("EventEmitter"));l.default=e}),98);

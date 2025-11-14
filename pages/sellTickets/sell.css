@@ -97,3 +97,64 @@ button img {
 .text-wrapper p {
   width: 650px;
 }
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 1rem;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  section {
+    gap: 20px;
+  }
+
+  section p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  #glow {
+    top: 100px;
+    width: 120px;
+    height: 70px;
+    filter: blur(20px);
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .wrapper .sample {
+    width: 90%;
+  }
+
+  .text-wrapper {
+    gap: 15px;
+  }
+
+  .text-wrapper p {
+    width: 100%;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  button img {
+    width: 40px;
+  }
+}
