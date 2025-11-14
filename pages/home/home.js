@@ -15,25 +15,25 @@ const events = [
     name: "IVOS",
     place: "Manila",
     price: "₱500",
-    img: "/assets/placeholder.png",
+    img: "assets/placeholder.png",
   },
   {
     name: "Design Expo",
     place: "Cebu",
     price: "₱350",
-    img: "/assets/placeholder.png",
+    img: "assets/placeholder.png",
   },
   {
     name: "Taylor Swift",
     place: "Araneta",
     price: "₱200",
-    img: "/assets/placeholder.png",
+    img: "assets/placeholder.png",
   },
   {
     name: "New Jeans",
     place: "Araneta",
     price: "₱211200",
-    img: "/assets/placeholder.png",
+    img: "assets/placeholder.png",
   },
 ];
 
