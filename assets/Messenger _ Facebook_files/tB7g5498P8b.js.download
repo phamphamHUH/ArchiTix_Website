@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("ConsumptionFocusPointVpvFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("90"),s=o("FalcoLoggerInternal").create("consumption_focus_point_vpv",e),u=s;l.default=u}),98);
