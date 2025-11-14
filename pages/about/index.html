@@ -9,9 +9,10 @@
   </head>
   <body>
     <header>
+      <div id="mouseGlow"></div>
       <img src="/assets/9.png" alt="ArchiTix Logo" />
       <nav>
-        <a href="/pages/home/index.html" class="nonCurrent">Home</a>
+        <a href="/index.html" class="nonCurrent">Home</a>
         <a href="/pages/features/index.html" class="nonCurrent">Features</a>
         <a href="/pages/buyTickets/index.html" class="nonCurrent"
           >Buy Tickets</a
@@ -22,7 +23,12 @@
         <a href="/pages/about/index.html" id="current">About Us</a>
       </nav>
       <div id="profileBorder">
-        <img src="/assets/pfp.png" alt="Profile Picture" id="pfp" />
+        <img
+          src="/assets/pfp.png"
+          alt="Profile Picture"
+          id="pfp"
+          onclick="profileAlert()"
+        />
       </div>
     </header>
     <main>
@@ -79,5 +85,6 @@
       <img src="/assets/twitter.png" alt="Twitter Icon" />
       <img src="/assets/youtube.png" alt="Youtube Icon" />
     </footer>
+    <script src="/global/script.js"></script>
   </body>
 </html>

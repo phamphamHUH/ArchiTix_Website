@@ -11,7 +11,7 @@
     <header>
       <img src="/assets/9.png" alt="ArchiTix Logo" />
       <nav>
-        <a href="/pages/home/index.html" class="nonCurrent">Home</a>
+        <a href="/index.html" class="nonCurrent">Home</a>
         <a href="/pages/features/index.html" class="nonCurrent">Features</a>
         <a href="/pages/buyTickets/index.html" id="current">Buy Tickets</a>
         <a href="/pages/sellTickets/index.html" class="nonCurrent"
@@ -20,7 +20,12 @@
         <a href="/pages/about/index.html" class="nonCurrent">About Us</a>
       </nav>
       <div id="profileBorder">
-        <img src="/assets/pfp.png" alt="Profile Picture" id="pfp" />
+        <img
+          src="/assets/pfp.png"
+          alt="Profile Picture"
+          id="pfp"
+          onclick="profileAlert()"
+        />
       </div>
     </header>
     <main>
@@ -52,13 +57,11 @@
           <div class="events">
             <div class="showing">
               <h2>Now Showing</h2>
-              <div id="events">
-              </div>
+              <div id="events"></div>
             </div>
             <div class="upcoming">
               <h2>Upcoming</h2>
-              <div id="events">
-              </div>
+              <div id="events"></div>
             </div>
           </div>
         </section>

@@ -2,24 +2,44 @@
 const heroTitle = document.querySelector("#hero h1");
 
 heroTitle.addEventListener("mouseenter", () => {
-    heroTitle.textContent = "Discover Amazing Events!";
+  heroTitle.textContent = "Discover Amazing Events!";
 });
 
 heroTitle.addEventListener("mouseleave", () => {
-    heroTitle.textContent = "The Easiest Way to Fill Every Seat.";
+  heroTitle.textContent = "The Easiest Way to Fill Every Seat.";
 });
 
 //event add
 const events = [
-  { name: "IVOS", place: "Manila", price: "₱500", img: "/assets/placeholder.png" },
-  { name: "Design Expo", place: "Cebu", price: "₱350", img: "/assets/placeholder.png" },
-  { name: "Taylor Swift", place: "Araneta", price: "₱200", img: "/assets/placeholder.png" },
-  { name: "New Jeans", place: "Araneta", price: "₱211200", img: "/assets/placeholder.png" },
+  {
+    name: "IVOS",
+    place: "Manila",
+    price: "₱500",
+    img: "/assets/placeholder.png",
+  },
+  {
+    name: "Design Expo",
+    place: "Cebu",
+    price: "₱350",
+    img: "/assets/placeholder.png",
+  },
+  {
+    name: "Taylor Swift",
+    place: "Araneta",
+    price: "₱200",
+    img: "/assets/placeholder.png",
+  },
+  {
+    name: "New Jeans",
+    place: "Araneta",
+    price: "₱211200",
+    img: "/assets/placeholder.png",
+  },
 ];
 
 const container = document.getElementById("events");
 
-events.forEach(e => {
+events.forEach((e) => {
   const card = document.createElement("div");
   card.classList.add("event");
   card.innerHTML = `
