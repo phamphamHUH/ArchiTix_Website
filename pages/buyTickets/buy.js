@@ -1,10 +1,3 @@
-document.addEventListener("mousemove", (e) => {
-  const glow = document.getElementById("mouseGlow");
-  if (glow) {
-    glow.style.transform = `translate(${e.clientX - 125}px, ${e.clientY - 125}px)`;
-  }
-});
-
 const heroTitle = document.querySelector("article h1");
 
 if (heroTitle) {

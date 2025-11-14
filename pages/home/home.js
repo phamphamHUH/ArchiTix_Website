@@ -9,12 +9,6 @@ heroTitle.addEventListener("mouseleave", () => {
     heroTitle.textContent = "The Easiest Way to Fill Every Seat.";
 });
 
-//mouse glow
-document.addEventListener("mousemove", (e) => {
-  const glow = document.getElementById("mouseGlow");
-  glow.style.transform = `translate(${e.clientX - 125}px, ${e.clientY - 125}px)`;
-});
-
 //event add
 const events = [
   { name: "IVOS", place: "Manila", price: "₱500", img: "/assets/placeholder.png" },
