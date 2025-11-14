@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ArchiTix</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="global/styles.css" />
     <link rel="stylesheet" href="pages/home/home.css" />
   </head>
   <body>
     <header>
       <div id="mouseGlow"></div>
-      <img src="/assets/9.png" alt="ArchiTix Logo" />
+      <!-- Logo -->
+      <img src="assets/9.png" alt="ArchiTix Logo" />
+      <!-- Navigation -->
       <nav>
         <a href="index.html" id="current">Home</a>
         <a href="pages/features/index.html" class="nonCurrent">Features</a>
@@ -23,33 +26,40 @@
 
       <div id="profileBorder">
         <img
-          src="/assets/pfp.png"
+          src="assets/pfp.png"
           alt="Profile Picture"
           onclick="profileAlert()"
         />
       </div>
     </header>
+
     <main>
       <article>
+        <!-- Hero Section -->
         <section id="hero">
           <div id="glow"></div>
-          <img src="/assets/9.png" alt="ArchiTix Logo" />
+          <img src="assets/9.png" alt="ArchiTix Logo" />
           <h1>The Easiest Way to Fill Every Seat.</h1>
         </section>
         <hr />
+        <!-- Trending Section -->
         <section id="trending">
           <h2>Trending Events</h2>
           <div id="events"></div>
         </section>
       </article>
     </main>
+
     <hr />
+    <!-- Footer -->
     <footer>
-      <img src="/assets/facebook.png" alt="Facebook Icon" />
-      <img src="/assets/instagram.png" alt="Instagram Icon" />
-      <img src="/assets/twitter.png" alt="Twitter Icon" />
-      <img src="/assets/youtube.png" alt="Youtube Icon" />
+      <img src="assets/facebook.png" alt="Facebook Icon" />
+      <img src="assets/instagram.png" alt="Instagram Icon" />
+      <img src="assets/twitter.png" alt="Twitter Icon" />
+      <img src="assets/youtube.png" alt="Youtube Icon" />
     </footer>
+
+    <!-- Scripts -->
     <script src="pages/home/home.js"></script>
     <script src="global/script.js"></script>
   </body>
