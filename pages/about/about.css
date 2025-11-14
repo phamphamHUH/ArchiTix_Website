@@ -19,17 +19,17 @@ h1 {
   margin-top: 1.2rem;
 }
 
-section {
+.intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 section p {
-  width: 900px;
-  font-size: 1.2rem;
+  width: 1000px;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -50,50 +50,25 @@ section p {
   pointer-events: none;
 }
 
-button {
-  background-color: black;
-  font-size: 2.2rem;
-  color: rgb(255, 255, 255);
+#missionVision {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
-  border: rgb(144, 142, 142) solid;
-  border-width: 1px;
-  padding: 20px;
-  margin-top: 10px;
-  cursor: pointer;
+  justify-content: space-evenly;
 }
 
-button div {
-  background-color: rgb(144, 142, 142);
-  border-radius: 50%;
-  padding: 5px;
-}
-
-button img {
-  width: 100px;
-}
-
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.wrapper .sample {
-  width: 600px;
-}
-
-.text-wrapper {
+.mvWrappers {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: start;
 }
 
-.text-wrapper p {
-  width: 650px;
+.vertical {
+  height: 250px;
+  width: 1px;
+  background-color: rgb(144, 142, 142);
+}
+
+.mvWrappers p {
+  width: 500px;
 }
