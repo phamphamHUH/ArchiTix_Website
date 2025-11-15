@@ -16,7 +16,7 @@ h1 {
   font-weight: 600;
   color: rgb(214, 214, 214);
   text-align: center;
-  margin-top: 1.2rem;
+  margin-top: 0.5rem;
 }
 
 section {
@@ -44,10 +44,10 @@ section img {
 
 #glow {
   position: absolute;
-  top: 150px;
+  top: 160px;
   left: 50%;
   transform: translateX(-50%);
-  width: 175px;
+  width: 200px;
   height: 100px;
   background: radial-gradient(
     ellipse at center,

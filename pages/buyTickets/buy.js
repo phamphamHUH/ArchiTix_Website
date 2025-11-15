@@ -16,10 +16,30 @@ if (heroTitle) {
 }
 
 const events = [
-  { name: "IVOS", place: "Manila", price: "₱500", img: "/assets/placeholder.png" },
-  { name: "Design Expo", place: "Cebu", price: "₱350", img: "/assets/placeholder.png" },
-  { name: "Taylor Swift", place: "Araneta", price: "₱200", img: "/assets/placeholder.png" },
-  { name: "New Jeans", place: "Araneta", price: "₱211,200", img: "/assets/placeholder.png" }
+  {
+    name: "IVOS",
+    place: "Manila",
+    price: "₱500",
+    img: "../../assets/placeholder.png",
+  },
+  {
+    name: "Design Expo",
+    place: "Cebu",
+    price: "₱350",
+    img: "../../assets/placeholder.png",
+  },
+  {
+    name: "Taylor Swift",
+    place: "Araneta",
+    price: "₱200",
+    img: "../../assets/placeholder.png",
+  },
+  {
+    name: "New Jeans",
+    place: "Araneta",
+    price: "₱211,200",
+    img: "../../assets/placeholder.png",
+  },
 ];
 
 const eventContainers = document.querySelectorAll("#events");
@@ -27,7 +47,7 @@ const eventContainers = document.querySelectorAll("#events");
 // list mga event
 if (eventContainers.length > 0) {
   eventContainers.forEach((container) => {
-    events.forEach(ev => {
+    events.forEach((ev) => {
       const card = document.createElement("div");
       card.classList.add("event");
 
@@ -38,7 +58,7 @@ if (eventContainers.length > 0) {
           <h5>Event Place: ${ev.place}</h5>
           <h5>Ticket Price: ${ev.price}</h5>
           <button>
-            <div><img src="/assets/seat.png" alt="" /></div>
+            <div><img src="../../assets/seat.png" alt="" /></div>
             View Seats
           </button>
         </div>

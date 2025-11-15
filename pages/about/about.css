@@ -1,14 +1,12 @@
 main {
-  padding: 2rem;
   letter-spacing: 2px;
 }
 
 article {
   max-width: 1950px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 
 h1 {
@@ -16,7 +14,6 @@ h1 {
   font-weight: 600;
   color: rgb(214, 214, 214);
   text-align: center;
-  margin-top: 1.2rem;
 }
 
 .intro {
@@ -24,7 +21,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
 }
 
 section p {
@@ -35,11 +31,11 @@ section p {
 
 #glow {
   position: absolute;
-  top: 150px;
+  top: 120px;
   left: 50%;
   transform: translateX(-50%);
-  width: 175px;
-  height: 100px;
+  width: 300px;
+  height: 120px;
   background: radial-gradient(
     ellipse at center,
     rgba(255, 255, 255, 0.6) 0%,
